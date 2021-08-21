@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    width:1032px ;
+    margin: auto;
+    column-gap: 20px;
+}
+.container .left{
+    flex: 2;
+}
+.container .left div:nth-child(1){
+    height:100px;
+    background-color: pink;
+
+}
+.container .left div:nth-child(2){
+    height:50px;
+    background-color: rgba(20, 157, 167, 0.061);
+
+}
+.container .right{
+    flex: 1;
+}
+.container .right div:nth-child(1){
+    background-color: purple;
+    height: 50px;
+}
+.container .right div:nth-child(2){
+    height:100px;
+    background-color: rgb(38, 15, 168);
+}
